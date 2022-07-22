@@ -1,0 +1,107 @@
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: #dce7f9;
+}
+
+img {
+    display: inline-block;
+    border-top-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    width: 100%;
+}
+
+.card-container {
+    width: 450px;
+    display: block;
+    align-items: center;
+    margin: 5rem auto;
+    border-radius: 1.2em;
+    background-color: #fff;
+    box-shadow:  0em 1em 0.7em rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    padding: 1.5em 0 0.7em 0;
+}
+
+.card-container-items {
+    text-align: center;
+    color: var(--Desaturated-blue); 
+}
+
+.card-section-music {
+    display: flex;
+    justify-content: center;
+    background-color: var(--Very-pale-blue);
+    padding: 1em;
+    margin: 3em;
+    border-radius: 12px;
+
+}
+
+.section-music-text {
+    display: grid;
+    padding: 0% 20% 0% 10%;
+}
+
+#h3,
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    padding: 0 4em 0;
+}
+
+.card-button {
+    background-color: var(--Bright-blue);
+    color: #fff;
+    width: 80%;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    border: transparent;
+    box-shadow:  0em 1em 0.7em rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+}
+
+.card-button-cancel {
+    background-color: transparent;
+    box-shadow: 0 0;
+    color: var(--Desaturated-blue);
+}
+
+.card-button-cancel:hover {
+    
+    box-shadow: 0 0;
+    color: black;
+}
+
+.card-button-payment:hover {
+    background-color: #7474ee;
+}
+
+a {
+
+    font-weight: bold;
+}
+
+a:hover {
+    color:#7474ee;
+    text-decoration: none;
+}
