@@ -1,0 +1,109 @@
+:root{
+    --article-first-bg-color: hsl(263, 55%, 52%);
+    --article-second-bg-color: hsl(217, 19%, 35%);
+    --article-third-bg-color: hsl(219, 29%, 14%);
+    --article-fourth-bg-color: hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    
+}
+
+.title-information{
+display: flex;    
+}
+
+.header-image{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: 0.20em solid hsl(263, 55%, 70%);
+    
+}
+
+.header-title{
+display: absolute;
+padding-left: 1.6em;
+
+}
+
+.header-title-name{
+    
+}
+
+.header-title-grade{
+    opacity: 50%;
+    
+}
+
+.title-review-article{
+    padding: 0.9em 0 0.9em 0;
+    line-height: 1.3em;
+    
+}
+
+.review-article{
+    opacity: 70%;
+    line-height: 1.5em;
+    
+}
+
+
+
+.first-article{
+    background-color: var(--article-first-bg-color);
+    color:white;
+    padding: 2em;
+    border-radius: 0.6em;
+    margin: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.second-article{
+    background-color: var(--article-second-bg-color);
+    padding: 2em;
+    border-radius: 0.6em;
+    margin: 2em;
+}
+
+.third-article{
+    background-color: var(--article-fourth-bg-color);
+    padding: 2em;
+    border-radius: 0.6em;
+    margin: 2em;
+}
+
+.fourth-article{
+    background-color:  var(--article-third-bg-color);
+    padding: 2em;
+    border-radius: 0.6em;
+    margin: 2em;
+}
+
+.fifth-article{
+    background-color: var(--article-fourth-bg-color);
+    padding: 2em;
+    border-radius: 0.6em;
+    margin: 2em;
+}
+
